@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="74594" started-at="2016-02-17T12:12:57Z" finished-at="2016-02-17T12:14:11Z">
+  <suite name="Default suite" duration-ms="118645" started-at="2016-02-17T13:09:01Z" finished-at="2016-02-17T13:11:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="74594" started-at="2016-02-17T12:12:57Z" finished-at="2016-02-17T12:14:11Z">
+    <test name="Default test" duration-ms="118645" started-at="2016-02-17T13:09:01Z" finished-at="2016-02-17T13:11:00Z">
       <class name="webportfolio.TestMainMenu">
-        <test-method status="PASS" signature="init()[pri:0, instance:webportfolio.TestMainMenu@7e0babb1]" name="init" is-config="true" duration-ms="3365" started-at="2016-02-17T15:12:57Z" finished-at="2016-02-17T15:13:00Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:webportfolio.TestMainMenu@7e0babb1]" name="init" is-config="true" duration-ms="3449" started-at="2016-02-17T16:09:01Z" finished-at="2016-02-17T16:09:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="checkMenu()[pri:0, instance:webportfolio.TestMainMenu@7e0babb1]" name="checkMenu" duration-ms="71198" started-at="2016-02-17T15:13:00Z" finished-at="2016-02-17T15:14:11Z">
+        <test-method status="PASS" signature="checkMenu()[pri:0, instance:webportfolio.TestMainMenu@7e0babb1]" name="checkMenu" duration-ms="115171" started-at="2016-02-17T16:09:05Z" finished-at="2016-02-17T16:11:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMenu -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:webportfolio.TestMainMenu@7e0babb1]" name="tearDown" is-config="true" duration-ms="1693" started-at="2016-02-17T15:14:11Z" finished-at="2016-02-17T15:14:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webportfolio.TestMainMenu@7e0babb1]" name="tearDown" is-config="true" duration-ms="1522" started-at="2016-02-17T16:11:00Z" finished-at="2016-02-17T16:11:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
