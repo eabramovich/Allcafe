@@ -4,7 +4,7 @@
 	<test name="Test1">
 		<parameter name="path" value="/"/>
 		<classes>
-		    <class name="webportfolio.HomePageTest"/>
+		    <class name="webportfolio.TestMainMenu"/>
 		</classes>
 	</test>  
 </suite>
