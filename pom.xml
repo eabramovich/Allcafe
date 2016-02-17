@@ -68,7 +68,7 @@
         <user.password></user.password>
         <grid2.hub></grid2.hub>
         <site.url>http://localhost/</site.url>
-        <browser.name>firefox</browser.name>
+        <browser.name>chrome</browser.name>
         <browser.version></browser.version>
         <browser.platform></browser.platform>
       </properties>
@@ -84,7 +84,7 @@
         <user.password></user.password>
         <grid2.hub></grid2.hub>
         <site.url>http://devhost/</site.url>
-        <browser.name>firefox</browser.name>
+        <browser.name>chrome</browser.name>
         <browser.version></browser.version>
         <browser.platform></browser.platform>
       </properties>
@@ -110,7 +110,7 @@
         <user.password></user.password>
         <grid2.hub></grid2.hub>
         <site.url>http://prodhost/</site.url>
-        <browser.name>firefox</browser.name>
+        <browser.name>chrome</browser.name>
         <browser.version></browser.version>
         <browser.platform></browser.platform>
       </properties>
