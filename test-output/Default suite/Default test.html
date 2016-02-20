@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Feb 20 18:59:54 MSK 2016</td>
+<td>Started on:</td><td>Sat Feb 20 19:33:28 MSK 2016</td>
 </tr>
-<tr><td>Total time:</td><td>22 seconds (22357 ms)</td>
+<tr><td>Total time:</td><td>62 seconds (62045 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,10 +76,16 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='webportfolio.TestMainMenu.checkMenu()'><b>checkMenu</b><br>Test class: webportfolio.TestMainMenu</td>
-<td><div><pre>org.junit.ComparisonFailure: expected:&lt;[Все рестораны Санкт-Петербурга: расположение на карте, отзывы, рейтинг ресторанов СПб]&gt; but was:&lt;[Р’СЃРµ СЂРµСЃС‚РѕСЂР°РЅС‹ РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРіР°: СЂР°СЃРїРѕР»РѕР¶РµРЅРёРµ РЅР° РєР°СЂС‚Рµ, РѕС‚Р·С‹РІС‹, СЂРµР№С‚РёРЅРі СЂРµСЃС‚РѕСЂР°РЅРѕРІ РЎРџР±]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at webportfolio.TestMainMenu.checkMenu(TestMainMenu.java:28)
+<td><div><pre>org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of element located by By.cssSelector: .menu li.dropdown:first-child .submenu div:nth-child(3)  ul li:first-child a
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;404-103&apos;, ip: &apos;192.168.1.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ED9AD~1.ABR\AppData\Local\Temp\scoped_dir6032_26304}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0b2fd19529548a3ad804c7c89ec873ad
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at webportfolio.HomePage.openFromDropDownMenu(HomePage.java:40)
+	at webportfolio.TestMainMenu.checkMenu(TestMainMenu.java:43)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -104,11 +110,17 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1641415002", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1641415002'><pre>org.junit.ComparisonFailure: expected:&lt;[Все рестораны Санкт-Петербурга: расположение на карте, отзывы, рейтинг ресторанов СПб]&gt; but was:&lt;[Р’СЃРµ СЂРµСЃС‚РѕСЂР°РЅС‹ РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРіР°: СЂР°СЃРїРѕР»РѕР¶РµРЅРёРµ РЅР° РєР°СЂС‚Рµ, РѕС‚Р·С‹РІС‹, СЂРµР№С‚РёРЅРі СЂРµСЃС‚РѕСЂР°РЅРѕРІ РЎРџР±]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at webportfolio.TestMainMenu.checkMenu(TestMainMenu.java:28)
+</pre></div><a href='#' onClick='toggleBox("stack-trace270095066", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace270095066'><pre>org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of element located by By.cssSelector: .menu li.dropdown:first-child .submenu div:nth-child(3)  ul li:first-child a
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;404-103&apos;, ip: &apos;192.168.1.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ED9AD~1.ABR\AppData\Local\Temp\scoped_dir6032_26304}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0b2fd19529548a3ad804c7c89ec873ad
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at webportfolio.HomePage.openFromDropDownMenu(HomePage.java:40)
+	at webportfolio.TestMainMenu.checkMenu(TestMainMenu.java:43)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -134,7 +146,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
 </pre></div></td>
-<td>19</td>
+<td>59</td>
 <td>webportfolio.TestMainMenu@7e0babb1</td></tr>
 </table><p>
 </body>

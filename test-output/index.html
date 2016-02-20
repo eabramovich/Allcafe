@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\e.abramovich\AppData\Local\Temp\testng-eclipse--972112937\testng-customsuite.xml</span>
+                    <span>C:\Users\e.abramovich\AppData\Local\Temp\testng-eclipse--1402364019\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -127,10 +127,16 @@
                   <a name="checkMenu">
                   </a> <!-- checkMenu -->
                   <span class="method-name">checkMenu</span>
-                  <div class="stack-trace">org.junit.ComparisonFailure: expected:&lt;[Все рестораны Санкт-Петербурга: расположение на карте, отзывы, рейтинг ресторанов СПб]&gt; but was:&lt;[Р’СЃРµ СЂРµСЃС‚РѕСЂР°РЅС‹ РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРіР°: СЂР°СЃРїРѕР»РѕР¶РµРЅРёРµ РЅР° РєР°СЂС‚Рµ, РѕС‚Р·С‹РІС‹, СЂРµР№С‚РёРЅРі СЂРµСЃС‚РѕСЂР°РЅРѕРІ РЎРџР±]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at webportfolio.TestMainMenu.checkMenu(TestMainMenu.java:28)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of element located by By.cssSelector: .menu li.dropdown:first-child .submenu div:nth-child(3)  ul li:first-child a
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;404-103&apos;, ip: &apos;192.168.1.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_71&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ED9AD~1.ABR\AppData\Local\Temp\scoped_dir6032_26304}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.116, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0b2fd19529548a3ad804c7c89ec873ad
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at webportfolio.HomePage.openFromDropDownMenu(HomePage.java:40)
+	at webportfolio.TestMainMenu.checkMenu(TestMainMenu.java:43)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -164,7 +170,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\e.abramovich\AppData\Local\Temp\testng-eclipse--972112937\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\e.abramovich\AppData\Local\Temp\testng-eclipse--1402364019\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -217,12 +223,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'checkMenu')
 data.setCell(0, 2, 'webportfolio.TestMainMenu')
-data.setCell(0, 3, 19781);
+data.setCell(0, 3, 59502);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 59 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -257,11 +263,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">checkMenu</span>
-                <span class="method-start">2552 ms</span>
+                <span class="method-start">2521 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">22455 ms</span>
+                <span class="method-start">62144 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
