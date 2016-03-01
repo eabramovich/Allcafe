@@ -1,4 +1,4 @@
-package webportfolio;
+package allcafe.selenium;
 
 import java.util.concurrent.TimeUnit;
 
@@ -9,9 +9,8 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 
+import allcafe.util.PropertyLoader;
 import ru.stqa.selenium.factory.WebDriverFactory;
-
-import webportfolio.util.PropertyLoader;
 
 /**
  * Base class for all the TestNG-based test classes

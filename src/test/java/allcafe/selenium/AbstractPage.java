@@ -1,4 +1,4 @@
-package webportfolio;
+package allcafe.selenium;
 
 import static org.junit.Assert.assertEquals;
 

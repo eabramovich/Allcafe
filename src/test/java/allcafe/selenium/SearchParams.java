@@ -1,4 +1,4 @@
-package webportfolio;
+package allcafe.selenium;
 
 public enum SearchParams {
 	DISTRICT("#top-search a[data-type='wm_district']"),

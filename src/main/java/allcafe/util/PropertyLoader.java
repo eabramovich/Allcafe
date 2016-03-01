@@ -1,4 +1,4 @@
-package webportfolio.util;
+package allcafe.util;
 
 import java.io.IOException;
 import java.util.Properties;

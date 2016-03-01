@@ -1,4 +1,4 @@
-package webportfolio;
+package allcafe.selenium;
 
 import org.junit.Before;
 

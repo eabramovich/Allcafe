@@ -1,4 +1,4 @@
-package webportfolio;
+package allcafe.selenium;
 
 public enum User {
 

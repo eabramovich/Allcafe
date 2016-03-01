@@ -1,4 +1,4 @@
-package webportfolio;
+package allcafe.selenium;
 
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;

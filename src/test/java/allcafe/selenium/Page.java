@@ -1,4 +1,4 @@
-package webportfolio;
+package allcafe.selenium;
 
 public enum Page {
 	
@@ -22,7 +22,7 @@ public enum Page {
 	NEWS_REVIEWS("http://spb.allcafe.ru/news", "Новости и открытия, обзоры, интервью"),
 	OPENNING("http://spb.allcafe.ru/news/opennews", "Открытия"),
 	RESTARAUNT_CRITIC("http://spb.allcafe.ru/news/boris", "Колонка ресторанного критика"),
-	INTERVIEWS("http://allcafe.ru/news/interview", "Интервью"),
+	INTERVIEWS("http://allcafe.ru/news/interview", "�?нтервью"),
 	AUTHOR_COLUMN("http://spb.allcafe.ru/news/i-dobruy", "«Добрые» заметки"),
 	ALL_NEWS("http://spb.allcafe.ru/news/total", "Новости ресторанов Санкт-Петербурга"),
 	EXCURSIONS("http://spb.allcafe.ru/news/excursions", "Ресторанные экскурсии");
