@@ -1,12 +1,22 @@
 package allcafe.model;
 
-public class User {
-
+public enum User {
+	SEO("1", "e.abramovich", "e.abramovich@404-group.com", "123456", "seo"),
+	SEO_WRONG("1", "e.abramovich", "e.abramovich@404-group.com", "wrong", "seo");
+	
 	private String id;
 	private String login;
 	private String email;
 	private String password;
 	private String role;
+	
+	User(String id, String login, String email, String password, String role) {
+		this.id = id;
+		this.login = login;
+		this.email = email;
+		this.password = password;
+		this.role = role;
+	}
 	
 	public String getId() {
 		return id;

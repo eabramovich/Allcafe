@@ -1,5 +1,7 @@
 package allcafe.applogic1;
 
+import org.openqa.selenium.By;
+
 import allcafe.applogic.NavigationHelper;
 
 public class NavigationHelper1 extends DriverBasedHelper implements NavigationHelper {
@@ -20,4 +22,10 @@ public class NavigationHelper1 extends DriverBasedHelper implements NavigationHe
 	 public void openRelativeUrl(String url) {
 	    driver.get(baseUrl + url);
 	 }
+
+	 @Override
+	 public void gotoLoginPage() {
+		 driver.findElement(By.cssSelector(".user-block a[href='http://allcafe.ru/community/in']")).click();
+	 }
+	 
 }

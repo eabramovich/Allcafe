@@ -14,11 +14,11 @@ public class LoginPage extends AnyPage {
 	 
 	 public LoginPage ensurePageLoaded() {
 	    super.ensurePageLoaded();
-	    wait.until(presenceOfElementLocated(By.id("loginform")));
+	    wait.until(presenceOfElementLocated(By.id("login_form")));
 	    return this;
 	 }
 	 
-	 @FindBy(name = "username")
+	 @FindBy(name = "email")
 	 private WebElement usernameField;
 	 
 	 @FindBy(name = "password")
@@ -26,5 +26,27 @@ public class LoginPage extends AnyPage {
 	
 	 @FindBy(name = "submit")
 	 private WebElement submitButton;
+	 
+	 @FindBy(css = ".error")
+	 private WebElement error;
+	 
+	 public LoginPage setUsernameField(String username) {
+		 usernameField.sendKeys(username);
+		 return this;
+	 }
+	 
+	 public LoginPage setPasswordField(String password) {
+		 passwordField.sendKeys(password);
+		 return this;
+	 }
+	 
+	 public void clickSubmitButton() {
+		 submitButton.click();
+	 }
+	 
+	  public String getTextError() {
+		  pages.loginPage.ensurePageLoaded();
+		  return error.getText();
+	  }
 
 }
