@@ -6,6 +6,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import allcafe.applogic.ApplicationManager;
 import allcafe.applogic.NavigationHelper;
+import allcafe.applogic.PageHelper;
 import allcafe.applogic.UserHelper;
 
 import allcafe.util.PropertyLoader;
@@ -15,6 +16,8 @@ public class ApplicationManager1 implements ApplicationManager {
 	
 	private UserHelper userHelper;
 	private NavigationHelper navHelper;
+	private DriverBasedHelper driverBasedHelper;
+	private PageHelper pageHelper;
 	
 	private WebDriver driver;
 	private String baseUrl;
@@ -42,6 +45,8 @@ public class ApplicationManager1 implements ApplicationManager {
 		
 		 userHelper = new UserHelper1(this);
 		 navHelper = new NavigationHelper1(this);
+		 driverBasedHelper = new DriverBasedHelper(driver);
+		 pageHelper = new PageHelper1(this);
 
 		 getNavigationHelper().openMainPage();
 	}
@@ -55,6 +60,16 @@ public class ApplicationManager1 implements ApplicationManager {
 	@Override
 	public NavigationHelper getNavigationHelper() {
 	  return navHelper;
+	}
+	
+	@Override
+	public DriverBasedHelper getDriverBasedHelper() {
+		return driverBasedHelper;
+	}
+	
+	@Override
+	public PageHelper getPageHelper() {
+		return pageHelper;
 	}
 
 	protected WebDriver getWebDriver() {

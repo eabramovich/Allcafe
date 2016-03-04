@@ -3,7 +3,9 @@ package allcafe.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.*;
 
@@ -44,6 +46,12 @@ public class InternalPage extends AnyPage {
 	@FindBy(css = ".info .name")
 	private WebElement username;
 	
+	@FindBy(css = ".city-selector a")
+	private WebElement townSelect;
+	
+	@FindBy(css = ".logo")
+	private WebElement logo;
+	
 	public InternalPage clickLogoutLink() {
 		logoutLink.click();
 		return this;
@@ -51,6 +59,15 @@ public class InternalPage extends AnyPage {
 	
 	public String getLoggedUsername() {
 		return username.getText();
+	}
+	
+	public void clickTownSelect() {
+		townSelect.click();
+	}
+	
+	public InternalPage clickLogo() {
+		logo.click();
+		return this;
 	}
 
 }

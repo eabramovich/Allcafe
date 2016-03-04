@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="allcafe.selenium.LoginTest">
+      <class name="allcafe.selenium.MainMenuTest">
         <methods>
-          <include name="mayBeLogout"/>
+          <include name="testDelivery"/>
+          <include name="mayBeGotoSpb"/>
           <include name="init"/>
-          <include name="testLoginOK"/>
           <include name="stop"/>
+          <include name="testDiscounts"/>
         </methods>
-      </class> <!-- allcafe.selenium.LoginTest -->
+      </class> <!-- allcafe.selenium.MainMenuTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

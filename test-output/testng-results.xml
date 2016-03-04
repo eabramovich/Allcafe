@@ -1,37 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24546" started-at="2016-03-02T16:18:37Z" finished-at="2016-03-02T16:19:01Z">
+  <suite name="Default suite" duration-ms="75708" started-at="2016-03-04T15:08:22Z" finished-at="2016-03-04T15:09:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24546" started-at="2016-03-02T16:18:37Z" finished-at="2016-03-02T16:19:01Z">
-      <class name="allcafe.selenium.LoginTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:allcafe.selenium.LoginTest@4cdbe50f]" name="init" is-config="true" duration-ms="8886" started-at="2016-03-02T19:18:37Z" finished-at="2016-03-02T19:18:46Z">
+    <test name="Default test" duration-ms="75708" started-at="2016-03-04T15:08:22Z" finished-at="2016-03-04T15:09:37Z">
+      <class name="allcafe.selenium.MainMenuTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:allcafe.selenium.MainMenuTest@4cdbe50f]" name="init" is-config="true" duration-ms="9363" started-at="2016-03-04T18:08:22Z" finished-at="2016-03-04T18:08:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="mayBeLogout()[pri:0, instance:allcafe.selenium.LoginTest@4cdbe50f]" name="mayBeLogout" is-config="true" duration-ms="1656" started-at="2016-03-02T19:18:46Z" finished-at="2016-03-02T19:18:47Z">
+        <test-method status="PASS" signature="mayBeGotoSpb()[pri:0, instance:allcafe.selenium.MainMenuTest@4cdbe50f]" name="mayBeGotoSpb" is-config="true" duration-ms="2341" started-at="2016-03-04T18:08:31Z" finished-at="2016-03-04T18:08:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mayBeLogout -->
-        <test-method status="PASS" signature="testLoginFailed()[pri:0, instance:allcafe.selenium.LoginTest@4cdbe50f]" name="testLoginFailed" duration-ms="8226" started-at="2016-03-02T19:18:47Z" finished-at="2016-03-02T19:18:56Z">
+        </test-method> <!-- mayBeGotoSpb -->
+        <test-method status="PASS" signature="testAddRestaurant()[pri:0, instance:allcafe.selenium.MainMenuTest@4cdbe50f]" name="testAddRestaurant" duration-ms="34180" started-at="2016-03-04T18:08:33Z" finished-at="2016-03-04T18:09:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginFailed -->
-        <test-method status="PASS" signature="mayBeLogout()[pri:0, instance:allcafe.selenium.LoginTest@4cdbe50f]" name="mayBeLogout" is-config="true" duration-ms="550" started-at="2016-03-02T19:18:56Z" finished-at="2016-03-02T19:18:56Z">
+        </test-method> <!-- testAddRestaurant -->
+        <test-method status="PASS" signature="mayBeGotoSpb()[pri:0, instance:allcafe.selenium.MainMenuTest@4cdbe50f]" name="mayBeGotoSpb" is-config="true" duration-ms="2419" started-at="2016-03-04T18:09:07Z" finished-at="2016-03-04T18:09:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mayBeLogout -->
-        <test-method status="PASS" signature="testLoginOK()[pri:0, instance:allcafe.selenium.LoginTest@4cdbe50f]" name="testLoginOK" duration-ms="5208" started-at="2016-03-02T19:18:56Z" finished-at="2016-03-02T19:19:01Z">
+        </test-method> <!-- mayBeGotoSpb -->
+        <test-method status="PASS" signature="testDelivery()[pri:0, instance:allcafe.selenium.MainMenuTest@4cdbe50f]" name="testDelivery" duration-ms="932" started-at="2016-03-04T18:09:10Z" finished-at="2016-03-04T18:09:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginOK -->
-        <test-method status="PASS" signature="stop()[pri:0, instance:allcafe.selenium.LoginTest@4cdbe50f]" name="stop" is-config="true" duration-ms="1580" started-at="2016-03-02T19:19:01Z" finished-at="2016-03-02T19:19:03Z">
+        </test-method> <!-- testDelivery -->
+        <test-method status="PASS" signature="mayBeGotoSpb()[pri:0, instance:allcafe.selenium.MainMenuTest@4cdbe50f]" name="mayBeGotoSpb" is-config="true" duration-ms="2254" started-at="2016-03-04T18:09:11Z" finished-at="2016-03-04T18:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mayBeGotoSpb -->
+        <test-method status="PASS" signature="testDiscounts()[pri:0, instance:allcafe.selenium.MainMenuTest@4cdbe50f]" name="testDiscounts" duration-ms="1739" started-at="2016-03-04T18:09:13Z" finished-at="2016-03-04T18:09:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiscounts -->
+        <test-method status="PASS" signature="mayBeGotoSpb()[pri:0, instance:allcafe.selenium.MainMenuTest@4cdbe50f]" name="mayBeGotoSpb" is-config="true" duration-ms="2469" started-at="2016-03-04T18:09:15Z" finished-at="2016-03-04T18:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mayBeGotoSpb -->
+        <test-method status="PASS" signature="testJournal()[pri:0, instance:allcafe.selenium.MainMenuTest@4cdbe50f]" name="testJournal" duration-ms="1339" started-at="2016-03-04T18:09:17Z" finished-at="2016-03-04T18:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJournal -->
+        <test-method status="PASS" signature="mayBeGotoSpb()[pri:0, instance:allcafe.selenium.MainMenuTest@4cdbe50f]" name="mayBeGotoSpb" is-config="true" duration-ms="2835" started-at="2016-03-04T18:09:19Z" finished-at="2016-03-04T18:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mayBeGotoSpb -->
+        <test-method status="PASS" signature="testPoster()[pri:0, instance:allcafe.selenium.MainMenuTest@4cdbe50f]" name="testPoster" duration-ms="2433" started-at="2016-03-04T18:09:21Z" finished-at="2016-03-04T18:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPoster -->
+        <test-method status="PASS" signature="mayBeGotoSpb()[pri:0, instance:allcafe.selenium.MainMenuTest@4cdbe50f]" name="mayBeGotoSpb" is-config="true" duration-ms="1569" started-at="2016-03-04T18:09:24Z" finished-at="2016-03-04T18:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mayBeGotoSpb -->
+        <test-method status="PASS" signature="testRatings()[pri:0, instance:allcafe.selenium.MainMenuTest@4cdbe50f]" name="testRatings" duration-ms="1537" started-at="2016-03-04T18:09:25Z" finished-at="2016-03-04T18:09:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRatings -->
+        <test-method status="PASS" signature="mayBeGotoSpb()[pri:0, instance:allcafe.selenium.MainMenuTest@4cdbe50f]" name="mayBeGotoSpb" is-config="true" duration-ms="3538" started-at="2016-03-04T18:09:27Z" finished-at="2016-03-04T18:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mayBeGotoSpb -->
+        <test-method status="PASS" signature="testRestaurantCatalog()[pri:0, instance:allcafe.selenium.MainMenuTest@4cdbe50f]" name="testRestaurantCatalog" duration-ms="2790" started-at="2016-03-04T18:09:30Z" finished-at="2016-03-04T18:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestaurantCatalog -->
+        <test-method status="PASS" signature="mayBeGotoSpb()[pri:0, instance:allcafe.selenium.MainMenuTest@4cdbe50f]" name="mayBeGotoSpb" is-config="true" duration-ms="2135" started-at="2016-03-04T18:09:33Z" finished-at="2016-03-04T18:09:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mayBeGotoSpb -->
+        <test-method status="PASS" signature="testReviews()[pri:0, instance:allcafe.selenium.MainMenuTest@4cdbe50f]" name="testReviews" duration-ms="1806" started-at="2016-03-04T18:09:35Z" finished-at="2016-03-04T18:09:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReviews -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:allcafe.selenium.MainMenuTest@4cdbe50f]" name="stop" is-config="true" duration-ms="2347" started-at="2016-03-04T18:09:37Z" finished-at="2016-03-04T18:09:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stop -->
-      </class> <!-- allcafe.selenium.LoginTest -->
+      </class> <!-- allcafe.selenium.MainMenuTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

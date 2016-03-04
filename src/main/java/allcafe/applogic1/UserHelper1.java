@@ -52,10 +52,5 @@ public class UserHelper1 extends DriverBasedHelper implements UserHelper {
 	  return pages.loginPage.waitPageLoaded()
 		&& pages.loginPage.getTextError().equals("Неправильный e-mail/логин/пароль");
   }
-  
-  /*@Override
-  public boolean isNotLoggedIn() {
-	  return pages.internalPage.afterLogoutPageLoaded();
-  }*/
  
 }

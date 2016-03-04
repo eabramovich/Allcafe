@@ -1,4 +1,4 @@
-package allcafe.selenium;
+package allcafe.model;
 
 public enum Link {
 	

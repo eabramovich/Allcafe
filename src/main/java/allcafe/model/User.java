@@ -1,8 +1,8 @@
 package allcafe.model;
 
 public enum User {
-	SEO("1", "e.abramovich", "e.abramovich@404-group.com", "123456", "seo"),
-	SEO_WRONG("1", "e.abramovich", "e.abramovich@404-group.com", "wrong", "seo");
+	SEO("1", "", "", "", "seo"),
+	SEO_WRONG("1", "", "", "wrong", "seo");
 	
 	private String id;
 	private String login;

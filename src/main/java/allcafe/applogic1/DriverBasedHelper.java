@@ -2,6 +2,7 @@ package allcafe.applogic1;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.interactions.Actions;
 
 import allcafe.pages.PageManager;
 
@@ -17,4 +18,7 @@ public class DriverBasedHelper {
     pages = new PageManager(driver);
   }
   
+  public String getTitlePage() {
+	  return driver.getTitle();
+  }
 }
